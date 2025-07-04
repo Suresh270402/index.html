@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body><center><H1>APSRTC STUDENT BUS PASS</H1>
+    <H2>APPLICATION</H2>
+</center>
+
+<center><form method="post" action="/C:\Users\muppu\OneDrive\Desktop\programer\submit.html">
+    <fieldset style="width: 600px; border-radius: 20px;">
+        <legend><h3>  Basic details</h3></legend>
+        <table>
+            <tbody>
+                <tr><label for="name">name: </label>
+            <input type="text" placeholder="name" required></tr>&nbsp;&nbsp;&nbsp;
+            <tr> <label for="email">email: </label>
+        <input type="text" placeholder="email" required></tr>
+        <br>
+       
+       <br>
+        <tr> <label for="pnone">ph num: </label>
+        <input type="text" placeholder="phone number" required></tr> &nbsp;&nbsp;&nbsp;
+       
+        <tr> <label for="age">age:</label>
+        <input type="text" placeholder="age" required></tr>
+        <BR></BR>
+        <tr><label for="dob"> Dob :</label>
+        <input type="date" placeholder="age" required></tr>
+            </tbody>
+        </table>
+       
+            <br>
+      
+    <label for="gender">gender: </label>
+    
+    <input type="radio" id="female" name="gender" required>
+    <label for="radio" name="female">female</label>
+
+        <input type="radio" id="female" name="gender" required>
+    <label for="radio" name="male">male</label>
+    <br>
+    <br>
+    
+        <label for="email">email</label>
+        <input type="text" placeholder="email" required name="email" 
+        pattern="[a-z\d._]+@gmail\.com" required> 
+        <br>
+
+        <br> 
+
+        <label for="yolo">yolo</label>
+        <input type="text" placeholder="yolo" required name="yolo" 
+        pattern="[a-z\d._]+@yolo\.com" required> 
+        <br>
+
+        <br>
+        <label for="gov">gov</label>
+        <input type="text" placeholder="gov" required name="gov" 
+        pattern="[a-z\d._]+@gov\.com" required> 
+
+
+
+        <br>
+<br>
+        <label for="password" >password</label>
+        <input type="text" placeholder="password" required name="password"
+        pattern="(?=.[A-Z])(?=.[a-z])(?=.[!@#$%^&]).{6,12}"> 
+
+        <br><h3>family details</h3>
+          <table>
+            <tbody>
+                <label for="father"> fathername: </label>
+        <input type="text" placeholder="name">&nbsp;&nbsp;&nbsp;&nbsp;
+            <tr> <label for="mother">mother: </label>
+        <input type="text" placeholder="mother" required></tr>
+        <br>
+                </tbody>
+    </table>            
+        
+        
+            <br>
+        <label for="pnone">ph num: </label>
+        <input type="text" placeholder="phone number">
+
+<br>
+   
+        <br>
+        </fieldset>
+        <FIeldset style="width: 600px; border-radius: 20px;">
+            <LEgend><h3>Address</h3></LEgend>
+           
+            <table>
+                <tbody>
+
+                    <tr><label for="village" >village : </label>&nbsp;</tr>
+                    <input type="text" name="village" id="village" placeholder="village"> &nbsp;&nbsp;&nbsp;
+
+
+                    <tr><label for="distric">distric :</label>&nbsp;</tr>
+                    <!-- <input type="text" name="district" id="district" placeholder="district"> -->
+                     <select name="district" id="District" required="">
+                        <option value="select">-- select --</option>
+                    </select>
+                    <br>
+                    <br>
+                    <tr><label for="state">state :</label>&nbsp;</tr>
+                    <input type="text" name="state"  placeholder="state"> &nbsp;&nbsp;&nbsp;
+                   
+                    <tr><label for="pincode">pincode :</label>&nbsp;</tr>
+                    <input type="text" name="pincode" placeholder="pincode">
+                    <br>
+                </tbody>
+               
+
+            </table>
+        </FIeldset>
+        
+    </fieldset>
+     <fieldset style="width: 600px; border-radius: 20px;">
+                    <legend><h3>PASS TYPE</h3></legend>
+                    <TAble>
+                        <TBody>
+                            <TR><label for="city">city</label></TR>
+                        <select name="city" id="" required="">
+                        <option value="select">hyd</option>
+                        <option value="select">sec</option>
+                    </select>
+
+                    <br>
+                    <br>
+
+                     <TR><label for="pass type">pass type</label></TR>
+                        <select name="pass type" id="" required="">
+                        <option value="select">general</option>
+                        <option value="select">mentro pass</option> &nbsp;
+
+                        <br>
+                    </select>
+                            
+                        </TBody>
+                    </TAble>
+
+                </fieldset>
+    <input type="submit" name="" id="" name="submit">
+    </form>
+    </center>
+</body>
+</html>
